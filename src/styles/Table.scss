@@ -1,0 +1,40 @@
+.table-header {
+  width: 100%;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    thead {
+      border-bottom: 1px solid #dce1e5;
+    }
+    tr {
+      border-bottom: 1px solid #dce1e5;
+      th {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        padding: 20px;
+        color: #5176a2;
+        letter-spacing: 0.01em;
+      }
+      td {
+        text-align: left;
+        padding-left: 20px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #222;
+        padding: 12px 12px 6px 12px;
+        letter-spacing: 0.01em;
+      }
+    }
+
+    tbody {
+      tr:nth-child(odd) {
+        background: #ffffff;
+      }
+      tr:nth-child(even) {
+        background: #f2f4f4;
+      }
+    }
+  }
+}
